@@ -51,7 +51,7 @@ ul>li {
 }
 
 .profile {
-  background: url("http://i.imgur.com/teXwGBWh.jpg");
+  background: url("public/images/profile.jpg");
   height: 7em;
   width: 7em;
   box-shadow: 0em 0em .1em .1em rgba(0,0,0,.5);
@@ -70,4 +70,7 @@ ul>li {
 .header {
   text-align: center;
 }
-s
+
+.contact-links {
+  font-size: 1.7em;
+}
