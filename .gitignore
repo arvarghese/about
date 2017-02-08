@@ -1,8 +1,9 @@
-# Taken from MeanStackJS https://github.com/greenpioneersolutions/meanstackjs
+###################################
+#### WRITTEN BY AVARGHESE4790 #####
+###################################
 
-# --------------------
-# OSX Files
-# --------------------
+### OS FILES ###
+## OSX Files
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -11,70 +12,49 @@ Icon
 .Spotlight-V100
 .Trashes
 
-# --------------------
-# Eclipse or Nodeclipse "Enide Studio" Files
-# --------------------
-# recommended to add to Git SCM
-# or generate with `nodeclipse -p` command
+### IDEs ###
+## Eclipse
 .project
 .settings/
 .*.md.html
-
-
-# --------------------
-# IntelliJ Files
-# --------------------
+## IntelliJ
 *.iml
 *.ipr
 *.iws
 .idea/
-
-# --------------------
-# Netbeans Files
-# --------------------
+## Netbeans
 nbproject/private/
 build/
 nbbuild/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+# Sublime
+*.sublime-project
+*.sublime-workspace
+## Visual Studio  
+.vscode/  
 
-# --------------------
-# Node Files
-# --------------------
-npm-debug.log
-node_modules/
+### NODE ###
+## Node Files
+**/npm-debug.*
+**/node_modules/
 
-# --------------------
-# SASS Files
-# --------------------
+### FRONT END ### 
+## SASS Files
 .sass-cache/
-client/styles/global-configs.styles.scss
-
-
-# --------------------
-# Bower Files
-# --------------------
+**/**/global-configs.styles.scss
+## Bower Files
 .bower-*/
 bower_components
 
-# --------------------
-# App Files
-# --------------------
-client/uploads
+### ANGULAR ###
+## Angular CLI
+server/dist/
+client/dists/
 
-
-# --------------------
-# vim Files
-# --------------------
-*.swp
-
-# --------------------
-# Files
-# --------------------
+### OTHER ###
+## Files
 files/
-
-# --------------------
-# Files
-# --------------------
-*sublime*
+## vim Files
+*.swp

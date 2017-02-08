@@ -1,0 +1,76 @@
+html,
+body {
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 100;
+  overflow-x: hidden;
+}
+
+i,a,h1,ul,li {
+  transition: .3s ease-in-out;
+}
+
+a {
+  cursor: pointer;
+  color: inherit !important;
+}
+
+ul, li {
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transition: .3s;
+}
+
+i, a, button, select, div {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+section {
+  max-width: 60em;
+  margin: auto;
+  padding: 1em 1em 0em;
+  transition: .3s ease-in-out; 
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 300 !important;
+}
+
+ul>li {
+  padding: 0.1em 0.5em !important;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.footer {
+  font-size: 1.2em;
+  margin: 1em auto;
+}
+
+.profile {
+  background: url("../images/profile.jpg");
+  height: 7em;
+  width: 7em;
+  box-shadow: 0em 0em .1em .1em rgba(0,0,0,.5);
+  background-size: cover;
+  border-radius: 5em;
+  background-position: center center;
+  margin: 1.5em auto;
+  transition: .3s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.profile:hover {
+  transform: scale(1.1);
+}
+
+.header {
+  text-align: center;
+}
+
+.contact-links {
+  font-size: 1.7em;
+}
