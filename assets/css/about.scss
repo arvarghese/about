@@ -5,7 +5,11 @@ body {
   overflow-x: hidden;
 }
 
-i,a,h1,ul,li {
+i,
+a,
+h1,
+ul,
+li {
   transition: .3s ease-in-out;
 }
 
@@ -14,14 +18,19 @@ a {
   color: inherit !important;
 }
 
-ul, li {
+ul,
+li {
   list-style-type: none !important;
   margin: 0 !important;
   padding: 0 !important;
   transition: .3s;
 }
 
-i, a, button, select, div {
+i,
+a,
+button,
+select,
+div {
   text-decoration: none !important;
   outline: none !important;
 }
@@ -30,10 +39,15 @@ section {
   max-width: 60em;
   margin: auto;
   padding: 1em 1em 0em;
-  transition: .3s ease-in-out; 
+  transition: .3s ease-in-out;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 300 !important;
 }
 
@@ -41,8 +55,14 @@ ul>li {
   padding: 0.1em 0.5em !important;
 }
 
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar {
+  display: none;
+}
+
+p {
+  font-weight: 300;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .footer {
@@ -54,7 +74,7 @@ ul>li {
   background: url("../images/profile.jpg");
   height: 7em;
   width: 7em;
-  box-shadow: 0em 0em .1em .1em rgba(0,0,0,.5);
+  box-shadow: 0em 0em .1em .1em rgba(0, 0, 0, .5);
   background-size: cover;
   border-radius: 5em;
   background-position: center center;
@@ -71,6 +91,31 @@ ul>li {
   text-align: center;
 }
 
+.contact-links-mobile {
+   display: none;
+   font-size: 1.7em;
+}
+
 .contact-links {
-  font-size: 1.7em;
+  font-size: 1.5em;
+  a {
+    &:after {
+      content: "|";
+    }
+    &:last-child:after {
+
+      content: "";
+    }
+  }
+}
+
+@media handheld,
+(max-width: 640px),
+(max-height: 400px) {
+  .contact-links-mobile {
+    display: initial;
+  }
+  .contact-links {
+    display: none;
+  }
 }
