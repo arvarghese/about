@@ -92,19 +92,32 @@ p {
 }
 
 .contact-links-mobile {
-   display: none;
-   font-size: 1.7em;
+  display: none;
+  div {
+    a {
+      font-size: 1.7em;
+      i {
+        padding: .2em;
+        &:hover {
+          transform: rotate(360deg);
+        }
+      }
+    }
+  }
 }
 
 .contact-links {
-  font-size: 1.5em;
-  a {
-    &:after {
-      content: "|";
-    }
-    &:last-child:after {
-
-      content: "";
+  div {
+    a {
+      font-size: 1.5em;
+      &:after {
+        content: " | ";
+        font-weight: 300;
+        opacity: .2;
+      }
+      &:last-child:after {
+        content: "";
+      }
     }
   }
 }

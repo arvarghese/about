@@ -84,14 +84,22 @@ p {
   text-align: center; }
 
 .contact-links-mobile {
-  display: none;
-  font-size: 1.7em; }
+  display: none; }
+  .contact-links-mobile div a {
+    font-size: 1.7em; }
+    .contact-links-mobile div a i {
+      padding: .2em; }
+      .contact-links-mobile div a i:hover {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg); }
 
-.contact-links {
+.contact-links div a {
   font-size: 1.5em; }
-  .contact-links a:after {
-    content: "|"; }
-  .contact-links a:last-child:after {
+  .contact-links div a:after {
+    content: " | ";
+    font-weight: 300;
+    opacity: .2; }
+  .contact-links div a:last-child:after {
     content: ""; }
 
 @media handheld, (max-width: 640px), (max-height: 400px) {
