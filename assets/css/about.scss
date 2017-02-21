@@ -169,19 +169,28 @@ p {
   }
   #ig-feed {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     align-items: stretch;
     align-content: stretch;
-    max-width: 65em;
+    max-width: 70em;
     margin: auto;
+    overflow-x: scroll;
     .ig-img {
       width: 20em;
       height: 15em;
-      margin: .1em;
+      margin: 1em;
+      padding: 1em 0;
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
+      box-shadow: 0.1em 0.1em 1em black;
+      border-radius: .2em;
+      transition: .3s ease-in-out;
+      &:hover {
+        opacity: .5;
+        transform: scale(1.1);
+        z-index: 5;
+      }
     }
   }
 }

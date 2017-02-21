@@ -147,25 +147,34 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
-  max-width: 65em;
-  margin: auto; }
+  max-width: 70em;
+  margin: auto;
+  overflow-x: scroll; }
   #instgram #ig-feed .ig-img {
     width: 20em;
     height: 15em;
-    margin: .1em;
+    margin: 1em;
+    padding: 1em 0;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover; }
+    background-size: cover;
+    box-shadow: 0.1em 0.1em 1em black;
+    border-radius: .2em;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out; }
+    #instgram #ig-feed .ig-img:hover {
+      opacity: .5;
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+      z-index: 5; }
 
 @media handheld, (max-width: 640px), (max-height: 400px) {
   .contact-links-mobile {
