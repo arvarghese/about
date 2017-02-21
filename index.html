@@ -17,6 +17,7 @@
 
 <body>
   <section id="splash">
+    <div class="splash-img"></div>
     <div class="splash-text">About Me</div>
   </section>
   <section id="header" class="header">
@@ -87,6 +88,12 @@
     <br>
     <hr>
   </section>
+  <section id="instgram">
+    <h4>Latest Instagram Photos</h4>
+    <br>
+    <div id="ig-feed"></div>
+  </section>
+  <hr>
   <section id="footer" class="footer">
     <div class="text-center">
       <span class="copyright">&copy; 2016 by Arun Varghese &nbsp;|
@@ -99,11 +106,11 @@
   <script src="assets/lib/jquery/dist/jquery.min.js"></script>
   <script src="assets/lib/wow/dist/wow.min.js"></script>
   <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="assets/lib/instafeed.js/instafeed.min.js"></script>
   <script src="assets/js/about.min.js"></script>
   <script>
     About.initialize();
     new WOW().init();
-
   </script>
 </body>
 

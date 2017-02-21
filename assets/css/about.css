@@ -47,12 +47,6 @@ div {
   margin: 0;
   padding: 0;
   position: relative;
-  background-color: grey;
-  background-image: url("../images/splash-1.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: cover;
   overflow: hidden; }
   #splash .splash-text {
     text-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.2);
@@ -67,6 +61,17 @@ div {
     letter-spacing: .4em;
     font-weight: 600;
     text-transform: uppercase; }
+  #splash .splash-img {
+    background-color: grey;
+    background-image: url("../images/splash-1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    position: absolute;
+    height: 200%;
+    width: 100%;
+    z-index: -1; }
 
 h1,
 h2,
@@ -134,6 +139,33 @@ p {
 #splash {
   height: 100%;
   width: 100%; }
+
+#instgram h4 {
+  text-align: center; }
+
+#instgram #ig-feed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  max-width: 65em;
+  margin: auto; }
+  #instgram #ig-feed .ig-img {
+    width: 20em;
+    height: 15em;
+    margin: .1em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; }
 
 @media handheld, (max-width: 640px), (max-height: 400px) {
   .contact-links-mobile {
