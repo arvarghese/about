@@ -195,6 +195,25 @@ p {
   }
 }
 
+#social-feed {
+  h4 {
+    text-align: center;
+  }
+  .juicer-feed {
+    max-width: 70em;
+    padding: 0 1em;
+    .referral {
+      display: none;
+    }
+    .feed-item {
+      padding: 0 .5em !important;
+      &.juicer {
+        display: none;
+      }
+    }
+  }
+}
+
 @media handheld,
 (max-width: 640px),
 (max-height: 400px) {

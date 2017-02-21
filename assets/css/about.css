@@ -176,6 +176,19 @@ p {
               transform: scale(1.1);
       z-index: 5; }
 
+#social-feed h4 {
+  text-align: center; }
+
+#social-feed .juicer-feed {
+  max-width: 70em;
+  padding: 0 1em; }
+  #social-feed .juicer-feed .referral {
+    display: none; }
+  #social-feed .juicer-feed .feed-item {
+    padding: 0 .5em !important; }
+    #social-feed .juicer-feed .feed-item.juicer {
+      display: none; }
+
 @media handheld, (max-width: 640px), (max-height: 400px) {
   .contact-links-mobile {
     display: initial; }
