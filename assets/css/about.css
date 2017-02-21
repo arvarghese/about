@@ -36,7 +36,8 @@ div {
 #header {
   max-width: 60em;
   margin: auto;
-  padding: 1em 1em 0em;
+  padding: 5em 1em;
+  text-align: center;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   overflow: hidden; }
@@ -114,9 +115,6 @@ p {
   -webkit-transform: scale(1.1);
           transform: scale(1.1); }
 
-.header {
-  text-align: center; }
-
 .contact-links-mobile {
   display: none; }
   .contact-links-mobile div a {
@@ -140,7 +138,7 @@ p {
   height: 100%;
   width: 100%; }
 
-#instgram h4 {
+#instgram h3 {
   text-align: center; }
 
 #instgram #ig-feed {
@@ -176,19 +174,36 @@ p {
               transform: scale(1.1);
       z-index: 5; }
 
-#social-feed h4 {
+#social-feed {
+  padding: 2em 0; }
+  #social-feed h3 {
+    text-align: center; }
+  #social-feed .juicer-feed {
+    max-width: 70em;
+    padding: 0 1em; }
+    #social-feed .juicer-feed .referral {
+      display: none; }
+    #social-feed .juicer-feed .feed-item {
+      border: none !important;
+      padding: 1.5em !important; }
+      #social-feed .juicer-feed .feed-item.juicer {
+        display: none; }
+
+.j-overlay .j-overlay-content .j-close {
+  top: 1em;
+  right: 1em; }
+
+.j-overlay .j-overlay-content .j-post-overlay {
+  padding: 1em; }
+
+#map h3 {
   text-align: center; }
 
-#social-feed .juicer-feed {
-  max-width: 70em;
-  padding: 0 1em; }
-  #social-feed .juicer-feed .referral {
-    display: none; }
-  #social-feed .juicer-feed .feed-item {
-    border: none !important;
-    padding: 1.5em !important; }
-    #social-feed .juicer-feed .feed-item.juicer {
-      display: none; }
+#map #mapkit-google-map {
+  margin: auto;
+  height: 20em;
+  width: 100%;
+  max-width: 70em; }
 
 @media handheld, (max-width: 640px), (max-height: 400px) {
   .contact-links-mobile {

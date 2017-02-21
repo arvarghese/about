@@ -39,7 +39,8 @@ div {
 #header {
   max-width: 60em;
   margin: auto;
-  padding: 1em 1em 0em;
+  padding: 5em 1em;
+  text-align: center;
   transition: .3s ease-in-out;
   overflow: hidden;
 }
@@ -123,10 +124,6 @@ p {
   transform: scale(1.1);
 }
 
-.header {
-  text-align: center;
-}
-
 .contact-links-mobile {
   display: none;
   div {
@@ -164,7 +161,7 @@ p {
 }
 
 #instgram {
-  h4 {
+  h3 {
     text-align: center;
   }
   #ig-feed {
@@ -196,7 +193,8 @@ p {
 }
 
 #social-feed {
-  h4 {
+  padding: 2em 0;
+  h3 {
     text-align: center;
   }
   .juicer-feed {
@@ -212,6 +210,30 @@ p {
         display: none;
       }
     }
+  }
+}
+
+.j-overlay {
+  .j-overlay-content {
+    .j-close {
+      top: 1em;
+      right: 1em;
+    }
+    .j-post-overlay {
+      padding: 1em;
+    }
+  }
+}
+
+#map {
+  h3 {
+    text-align: center;
+  }
+  #mapkit-google-map {
+    margin: auto;
+    height: 20em;
+    width: 100%;
+    max-width: 70em;
   }
 }
 

@@ -19,7 +19,8 @@
     "font-awesome": "4.6.3",
     "animate.css": "3.5.1",
     "wow": "1.1.2",
-    "instafeed.js": "^1.4.1"
+    "instafeed.js": "^1.4.1",
+    "github-activity": "*"
   },
   "resolutions": {
     "jquery": "1.9.1 - 2"

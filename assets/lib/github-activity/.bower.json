@@ -1,0 +1,21 @@
+{
+  "name": "github-activity",
+  "dependencies": {
+    "momentjs": "~2.1.0",
+    "mustache": "~0.7.2"
+  },
+  "devDependencies": {
+    "jasmine": "~1.3.1"
+  },
+  "homepage": "https://github.com/achan/github-activity",
+  "_release": "219259af96",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "219259af96bd0a615251f2ba9de3aeee2ecdb9c9"
+  },
+  "_source": "https://github.com/achan/github-activity.git",
+  "_target": "*",
+  "_originalSource": "github-activity",
+  "_direct": true
+}
