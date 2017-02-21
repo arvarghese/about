@@ -185,7 +185,8 @@ p {
   #social-feed .juicer-feed .referral {
     display: none; }
   #social-feed .juicer-feed .feed-item {
-    padding: 0 .5em !important; }
+    border: none !important;
+    padding: 1.5em !important; }
     #social-feed .juicer-feed .feed-item.juicer {
       display: none; }
 

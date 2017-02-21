@@ -206,7 +206,8 @@ p {
       display: none;
     }
     .feed-item {
-      padding: 0 .5em !important;
+      border: none !important;
+      padding: 1.5em !important;
       &.juicer {
         display: none;
       }
