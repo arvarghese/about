@@ -201,9 +201,9 @@ p {
 
 #map #mapkit-google-map {
   margin: auto;
-  height: 20em;
+  height: 30em;
   width: 100%;
-  max-width: 70em; }
+  max-width: 77em; }
 
 @media handheld, (max-width: 640px), (max-height: 400px) {
   .contact-links-mobile {
