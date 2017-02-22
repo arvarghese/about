@@ -234,6 +234,14 @@ p {
     height: 30em;
     width: 100%;
     max-width: 77em;
+    box-shadow: 0.1em 0.1em 1em black;
+    position: relative;
+    i {
+      position: absolute;
+      top: 50%;
+      left: 47%;
+      transform: translate(-50%, -50%);
+    }
   }
 }
 
