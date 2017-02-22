@@ -249,6 +249,141 @@ var About = {
     instaFeed: {},
     locations: [
         {
+            "title": "Capri",
+            "address": "Capri, Metropolitan City of Naples, Italy",
+            "desc": "",
+            "tel": "",
+            "int_tel": "",
+            "email": "",
+            "web": "",
+            "web_formatted": "",
+            "open": "",
+            "time": "",
+            "lat": 40.5532009,
+            "lng": 14.222154,
+            "open_hours": "",
+            "marker": {
+                "url": "https:\/\/maps.gstatic.com\/mapfiles\/api-3\/images\/spotlight-poi_hdpi.png",
+                "scaledSize": {
+                    "width": 25,
+                    "height": 42,
+                    "j": "px",
+                    "f": "px"
+                },
+                "origin": {
+                    "x": 0,
+                    "y": 0
+                },
+                "anchor": {
+                    "x": 12,
+                    "y": 42
+                }
+            },
+            "iw": {
+                "address": true,
+                "desc": true,
+                "email": true,
+                "enable": true,
+                "int_tel": true,
+                "open": true,
+                "open_hours": true,
+                "photo": true,
+                "tel": true,
+                "title": true,
+                "web": true
+            }
+        },
+        {
+            "title": "Anacapri",
+            "address": "Anacapri, Metropolitan City of Naples, Italy",
+            "desc": "",
+            "tel": "",
+            "int_tel": "",
+            "email": "",
+            "web": "",
+            "web_formatted": "",
+            "open": "",
+            "time": "",
+            "lat": 40.5546558,
+            "lng": 14.2105284,
+            "open_hours": "",
+            "marker": {
+                "url": "https:\/\/maps.gstatic.com\/mapfiles\/api-3\/images\/spotlight-poi_hdpi.png",
+                "scaledSize": {
+                    "width": 25,
+                    "height": 42,
+                    "j": "px",
+                    "f": "px"
+                },
+                "origin": {
+                    "x": 0,
+                    "y": 0
+                },
+                "anchor": {
+                    "x": 12,
+                    "y": 42
+                }
+            },
+            "iw": {
+                "address": true,
+                "desc": true,
+                "email": true,
+                "enable": true,
+                "int_tel": true,
+                "open": true,
+                "open_hours": true,
+                "photo": true,
+                "tel": true,
+                "title": true,
+                "web": true
+            }
+        },
+        {
+            "title": "Capri Wine Hotel",
+            "address": "Via Marina Grande, 69, 80076 Capri NA, Italy",
+            "desc": "",
+            "tel": "",
+            "int_tel": "",
+            "email": "",
+            "web": "",
+            "web_formatted": "",
+            "open": "",
+            "time": "",
+            "lat": 40.551232,
+            "lng": 14.237073,
+            "open_hours": "",
+            "marker": {
+                "url": "https:\/\/maps.gstatic.com\/mapfiles\/api-3\/images\/spotlight-poi_hdpi.png",
+                "scaledSize": {
+                    "width": 25,
+                    "height": 42,
+                    "j": "px",
+                    "f": "px"
+                },
+                "origin": {
+                    "x": 0,
+                    "y": 0
+                },
+                "anchor": {
+                    "x": 12,
+                    "y": 42
+                }
+            },
+            "iw": {
+                "address": true,
+                "desc": true,
+                "email": true,
+                "enable": true,
+                "int_tel": true,
+                "open": true,
+                "open_hours": true,
+                "photo": true,
+                "tel": true,
+                "title": true,
+                "web": true
+            }
+        },
+        {
             "title": "Miami",
             "address": "Miami, FL, USA",
             "desc": "",
