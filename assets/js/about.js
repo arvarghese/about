@@ -8,9 +8,8 @@ var About = {
     loadParallax: function () {
         $(window).on('scroll', function () {
             window.requestAnimationFrame(function () {
-                var scrolled = $(window).scrollTop();
                 $('.splash-img').css({
-                    'transform': 'translate3d(0,' + scrolled * -0.3 + 'px, 0)'
+                    'transform': "translateY(" + $(window).scrollTop() * -0.3 + "px)"
                 });
             });
         });

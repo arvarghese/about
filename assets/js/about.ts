@@ -7,10 +7,9 @@ let About = {
 	},
 	loadParallax: () => {
 		$(window).on('scroll', () => {
-			window.requestAnimationFrame(() => {
-				let scrolled = $(window).scrollTop();
+			window.requestAnimationFrame(() => {				
 				$('.splash-img').css({
-					'transform': 'translate3d(0,' + scrolled * -0.3 + 'px, 0)'
+					'transform': `translateY(${$(window).scrollTop() * -0.3}px)`
 				});
 			});
 		});
