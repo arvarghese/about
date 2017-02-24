@@ -196,23 +196,6 @@ p {
 .j-overlay .j-overlay-content .j-post-overlay {
   padding: 1em; }
 
-#map h3 {
-  text-align: center; }
-
-#map #mapkit-google-map {
-  margin: auto;
-  height: 30em;
-  width: 100%;
-  max-width: 77em;
-  box-shadow: 0.1em 0.1em 1em black;
-  position: relative; }
-  #map #mapkit-google-map i {
-    position: absolute;
-    top: 50%;
-    left: 47%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%); }
-
 @media handheld, (max-width: 640px), (max-height: 400px) {
   .contact-links-mobile {
     display: initial; }
