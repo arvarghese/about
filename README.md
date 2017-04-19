@@ -5,5 +5,7 @@
 
 ### Run on Your Local Machine
 ```bash
+$ git clone https://github.com/varararun/about.git
+$ cd resume
 $ npm start
 ```  
