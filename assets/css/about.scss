@@ -52,7 +52,7 @@ div {
 #header {
     max-width: 60em;
     margin: auto;
-    padding: 5em 1em;
+    padding: 5em 0 2em;
     text-align: center;
     transition: .3s ease-in-out;
     overflow: hidden;
@@ -171,71 +171,6 @@ p {
 #splash {
     height: 100%;
     width: 100%;
-}
-
-#instgram {
-    h3 {
-        text-align: center;
-    }
-    #ig-feed {
-        display: flex;
-        justify-content: left;
-        align-items: stretch;
-        align-content: stretch;
-        max-width: 70em;
-        margin: auto;
-        overflow-x: scroll;
-        .ig-img {
-            width: 20em;
-            height: 15em;
-            margin: 1em;
-            padding: 1em 0;
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-            box-shadow: 0.1em 0.1em 1em black;
-            border-radius: .2em;
-            transition: .3s ease-in-out;
-            &:hover {
-                opacity: .5;
-                transform: scale(1.1);
-                z-index: 5;
-            }
-        }
-    }
-}
-
-#social-feed {
-    padding: 2em 0;
-    h3 {
-        text-align: center;
-    }
-    .juicer-feed {
-        max-width: 70em;
-        padding: 0 1em;
-        .referral {
-            display: none;
-        }
-        .feed-item {
-            border: none !important;
-            padding: 1.5em !important;
-            &.juicer {
-                display: none;
-            }
-        }
-    }
-}
-
-.j-overlay {
-    .j-overlay-content {
-        .j-close {
-            top: 1em;
-            right: 1em;
-        }
-        .j-post-overlay {
-            padding: 1em;
-        }
-    }
 }
 
 @media handheld,
