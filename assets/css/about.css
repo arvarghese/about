@@ -53,6 +53,8 @@ div {
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   overflow: hidden; }
+  #header p {
+    margin: 0 .4em; }
 
 #splash {
   width: 100%;
@@ -76,7 +78,7 @@ div {
     text-transform: uppercase; }
   #splash .splash-img {
     background-color: grey;
-    background-image: url("../images/splash-1.jpg");
+    background-image: url("../img/splash-1.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: left center;
@@ -110,7 +112,7 @@ p {
   margin: 3em auto 2em; }
 
 .profile {
-  background: url("../images/profile.jpg");
+  background: url("../img/profile.jpg");
   height: 7em;
   width: 7em;
   -webkit-box-shadow: 0em 0em 0.1em 0.1em rgba(0, 0, 0, 0.5);

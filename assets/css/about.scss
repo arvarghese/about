@@ -56,6 +56,9 @@ div {
     text-align: center;
     transition: .3s ease-in-out;
     overflow: hidden;
+    p {
+        margin: 0 .4em;
+    }
 }
 
 #splash {
@@ -80,7 +83,7 @@ div {
     }
     .splash-img {
         background-color: grey;
-        background-image: url("../images/splash-1.jpg");
+        background-image: url("../img/splash-1.jpg");
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: left center;
@@ -121,7 +124,7 @@ p {
 }
 
 .profile {
-    background: url("../images/profile.jpg");
+    background: url("../img/profile.jpg");
     height: 7em;
     width: 7em;
     box-shadow: 0em 0em .1em .1em rgba(0, 0, 0, .5);
